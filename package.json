@@ -1,0 +1,18 @@
+{
+  "name": "ScrapBag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mcesarpl/ScrapBag.git",
+  "author": "mcesarpl <mcesarpl123@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "invoke": "serverless invoke -f hello",
+    "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "serverless-plugin-typescript": "^2.1.0",
+    "typescript": "^4.4.4"
+  }
+}
