@@ -7,7 +7,9 @@
     "target": "es2017",
     "outDir": ".build",
     "moduleResolution": "node",
-    "lib": ["es6"],
+    "lib": [
+      "es6"
+    ],
     "rootDir": "./",
     "removeComments": true,
     "typeRoots": [
@@ -17,9 +19,15 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@models/*": ["./src/models/*"],
-      "@factories/*": ["./src/factories/*"],
-      "@config/*": ["./src/config/*"]
+      "@models/*": [
+        "./src/models/*"
+      ],
+      "@factories/*": [
+        "./src/factories/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ]
     }
   }
 }
